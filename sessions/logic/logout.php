@@ -1,0 +1,3 @@
+<?php
+// log out logic
+?>
