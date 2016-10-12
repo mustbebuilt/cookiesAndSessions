@@ -1,9 +1,9 @@
 <?php
 // include sessions.inc.php here
 ?>
-<!doctype html>
 <!--
 Design by Free CSS Templates
+RWD/HTML5 additions by mustbebuilt.com
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 
@@ -13,15 +13,19 @@ Version    : 1.0
 Released   : 20120915
 
 -->
+<!doctype html>
 <html>
 <head>
+<title>Login Demo with Sessions</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta charset="utf-8">
-<title>Login Demo with Sessions</title>
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1">
+
+<link href='//fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:601px)"  href="css/desktop.css">
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <![endif]-->
@@ -35,8 +39,7 @@ Released   : 20120915
 			</div>
             
             <?php 
-			/////////////////////////// conditional includes here
-			
+			/////////////////////////// conditional includes here		
 			?>
             
 			<nav>
@@ -50,7 +53,7 @@ Released   : 20120915
 			</nav>
 		</div>
 		<div id="banner">
-			<div class="content"><img src="images/img02.jpg" width="1000" height="300" alt=""></div>
+			<div class="content"><img src="images/keyboard.jpg" alt="Keyboard" class="bannerImg"></div>
 		</div>
 	</div>
 	<!-- end #header -->
@@ -59,7 +62,7 @@ Released   : 20120915
 		<div id="content">
 			<div class="post">
 				<h2 class="title"><a href="#">Welcome to Keyboard </a></h2>
-				<p class="meta"><span class="date">September 12, 2012</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
+				<p class="meta"><span class="date">September 12, 2016</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry">
 					<p>This is <strong>Keyboard </strong>, a free, fully standards-compliant CSS template designed by <a href="http://www.freecsstemplates.org">FCT</a>.        The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) </p>
@@ -69,7 +72,7 @@ Released   : 20120915
 			</div>
 			<div class="post">
 				<h2 class="title"><a href="#">Lorem ipsum sed aliquam</a></h2>
-				<p class="meta"><span class="date">September 11, 2012</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
+				<p class="meta"><span class="date">September 11, 2016</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry">
 					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est. Phasellus <a href="#">dapibus semper urna</a>. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem.  Mauris quam enim, molestie in,  ut, lobortis a, est.</p>
@@ -78,7 +81,7 @@ Released   : 20120915
 			</div>
 			<div class="post">
 				<h2 class="title"><a href="#">Lorem ipsum sed aliquam</a></h2>
-				<p class="meta"><span class="date">September 09, 2012</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
+				<p class="meta"><span class="date">September 09, 2016</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry">
 					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est. Phasellus <a href="#">dapibus semper urna</a>. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem.  Mauris quam enim, molestie in,  ut, lobortis a, est.</p>
@@ -131,7 +134,7 @@ Released   : 20120915
 	<!-- end #page --> 
 </div>
 <footer>
-	<p>Copyright (c) 2015 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+	<p>Copyright (c) 2016 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
 </footer>
 <!-- end #footer -->
 <?php
