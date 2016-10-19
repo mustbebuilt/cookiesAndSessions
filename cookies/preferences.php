@@ -1,7 +1,7 @@
 <?php
 $favColour = 'red';
 $colourCode = '#ff0000';
-// check for cookie 'favCol' here
+// check for cookie 'myFav' here
 switch($favColour){
 	case 'red' : 
 	$colourCode = '#B9121B';
