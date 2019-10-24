@@ -1,3 +1,3 @@
 <?php
-// create cookie
+// Create cookie 'myFave' to store the colour value and redirect
 ?>
